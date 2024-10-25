@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    user-select: none;
+    font-family: "Rubik Wet Paint", system-ui;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.toggle-div{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container h1{
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+#toogle-btn{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    background: #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+
+#toogle-btn:hover{
+    cursor: pointer;
+}
+
+#slider{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: #fff;
+    transition: all 1s ease;
+    z-index: 99;
+}
+
+.main-container{
+    transition: all 1s ease;
+}
+
+#box{
+    width: fit-content;
+}
+
+#svg1{
+    position: absolute;
+    left: 0;
+    z-index: 0;
+}
+
+#svg2{
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
