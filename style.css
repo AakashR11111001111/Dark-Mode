@@ -59,6 +59,10 @@ html,body{
     z-index: 99;
 }
 
+audio{
+    display: none;
+}
+
 .main-container{
     transition: all 1s ease;
 }
